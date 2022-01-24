@@ -8,14 +8,16 @@ const startup = () => {
   preview = document.getElementById("preview");
 
   // Initialize the editor
+  const initialValue = localStorage.getItem("content") || "";
   const editor = monaco.editor.create(content, { 
-    value: localStorage.getItem("content") || "",
+    value: initialValue,
     language: 'asciidoc'
   });
+  updatePreview(initialValue);
   editor.getModel().onDidChangeContent(_ => updatePreview(editor.getValue()));
 
   // Initialize vim mode
-  const vimMode = initVimMode(editor, document.getElementById('statusbar'))
+  initVimMode(editor, document.getElementById('statusbar'))
 };
 
 
