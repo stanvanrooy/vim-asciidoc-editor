@@ -1,1 +1,3 @@
-# Asciidoc Editor with Vim keybindings
+# Asciidoc Editor 
+
+With Vim keybindings and a preview.
