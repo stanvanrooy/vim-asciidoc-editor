@@ -1,3 +1,8 @@
-# Asciidoc Editor 
+:toc: macro
+:toc-title:
+:toclevels: 9
+:imagesdir: assets
 
-With Vim keybindings and a preview.
+# Karma
+
+image::preview-1.png[]
