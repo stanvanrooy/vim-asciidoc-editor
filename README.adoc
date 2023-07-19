@@ -3,6 +3,6 @@
 :toclevels: 9
 :imagesdir: assets
 
-# Karma
+# Asciidoc Editor
 
 image::preview-1.png[]
