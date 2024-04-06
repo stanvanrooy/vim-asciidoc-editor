@@ -3,6 +3,12 @@
 :toclevels: 9
 :imagesdir: assets
 
-# Asciidoc Editor
+= 📝 vim-asciidoc-editor
 
 image::preview-1.png[]
+
+== 📖 About vim-asciidoc-editor
+I created vim-asciidoc-editor because I couldn't find any other tool that let me edit Asciidoc visually while still using Vim commands.
+
+== 🚀 Getting Started
+Navigate to https://stanvanrooy.github.io/vim-asciidoc-editor/
